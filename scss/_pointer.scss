@@ -1,0 +1,31 @@
+.pointer {
+    background-color: #FDF8F5;
+    .pointer__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        place-items: center;
+        text-align: center;
+        margin-bottom: 130px;
+        height: 250px;
+        h3 {
+            font-size: 56px;
+            font-weight: 700;
+            color: #222222;
+        }
+        p {
+            font-size: 24px;
+            font-weight: 400;
+            color: #555555;
+        }
+    }
+}
+@media (max-width: 550px) {
+    .pointer {
+        .pointer__wrapper {
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+            height: auto;
+            margin-top: 15px;
+        }
+    }
+}
