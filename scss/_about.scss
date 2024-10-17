@@ -36,6 +36,9 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         .about__info {
+            h3 {
+                font-size: 35px;
+            }
             button {
                 margin-bottom: 30px;
                 grid-row: 2;

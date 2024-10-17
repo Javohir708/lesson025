@@ -1,5 +1,5 @@
 .product__text-wrapper {
-    margin-top: 130px;
+    margin-top: 100px;
     margin-bottom: 60px;
     display: grid;
     grid-template-columns: auto auto;
@@ -35,6 +35,11 @@
     .product__text-wrapper {
         display: grid;
         grid-template-columns: auto;
+        .product__info {
+            h3 {
+                font-size: 40px;
+            }
+        }
         .product__link {
             margin-top: 10px;
             display: flex;

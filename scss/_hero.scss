@@ -46,6 +46,17 @@
     }
 }
 @media (max-width: 1180px) {
+    .hero {
+        .hero__wrapper {
+            .hero__info {
+                h3 {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1180px) {
     .hero__wrapper {
         display: flex;
         flex-direction: column;
